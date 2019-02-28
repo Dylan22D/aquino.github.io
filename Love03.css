@@ -1,0 +1,45 @@
+body {
+    background-image: url("sakura3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0; 
+    margin: 0;
+}
+
+html { 
+    overflow-y: hidden; 
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: allessa;
+    src: url("allessa.ttf");
+}
+@font-face {
+    font-family: unicorns;
+    src: url("unicorns.ttf");
+}
+
+h2 {
+    position: absolute;
+    width: 1000px;
+    height: 50px;
+    top: 10%;
+    left: 20%;
+    font-family: allessa;
+    font-size: 40px;
+    color: #FFA5DF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.sac {
+    position: absolute;
+    width: 800px;
+    height: 50px;
+    top: 27%;
+    left: 20%;
+    font-size: 30px;
+    color: #FCFFFC;
+    font-family: unicorns;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
